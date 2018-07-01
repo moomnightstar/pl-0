@@ -1,0 +1,19 @@
+/*E:\学习资料\编译原理\pl0\pl0\1.txt*/
+var i,j;
+//E:\学习资料\编译原理\pl0\pl0\1.txt
+begin
+  i := 1;
+  j := i + 1;
+  if 0||i>0  then  if !1&&i+j>=1&&i then j:=0; 
+ 		else  j:=1;
+  else j:=2;
+	while i<10 do
+	begin
+		i:=i+1;
+		for(j:=0;j<5;j:=j+1)
+		begin
+			if j>2 then  break;
+		end;
+		if i>3 then	break;
+	end;
+end.

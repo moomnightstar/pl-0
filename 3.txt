@@ -1,0 +1,7 @@
+var a[9],b;
+begin
+	read(a[1],b);
+	a[0]:=a[1]+1;
+	b:=b+2;
+	write(a[0],b);
+end.

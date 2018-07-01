@@ -1,0 +1,10 @@
+var i;
+begin
+  i := 1;
+  if i>10 then exit;
+  else begin 
+	i:=-1;
+	if i<0 then exit;
+	end;
+  i:=2;
+end.
